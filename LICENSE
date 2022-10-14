@@ -1,8 +1,9 @@
 //////////////////////////////////////////////////////////////////////////// 
-// Copyright 2019-2020 the 3D Vision Group at the State Key Lab of CAD&CG,  
-// Zhejiang University. All Rights Reserved. 
+// Copyright 2022-2023 the Bio-optics Group at the Guangdong Provincial Key
+// Laboratory of Medical Image Processing, Southern Medical University.
+// All Rights Reserved.
 // 
-// For more information see <https://github.com/zju3dv/snake> 
+// For more information see <https://github.com/lzc-smu/CylinGCN.git>
 // If you use this code, please cite the corresponding publications as  
 // listed on the above website. 
 // 
@@ -12,7 +13,5 @@
 // for commercial use. 
 // You must retain, in the source form of any derivative works that you  
 // distribute, all copyright, patent, trademark, and attribution notices  
-// from the source form of this work. 
-//  
-// 
+// from the source form of this work.
 ////////////////////////////////////////////////////////////////////////////
