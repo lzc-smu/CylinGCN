@@ -1,0 +1,26 @@
+model_dir: 'data/checkpoints'
+record_dir: 'data/record'
+result_dir: 'data/result'
+task: 'OCT'
+resume: true
+gpus: 0
+
+train:
+    optim: 'adam'
+    lr: 1e-4
+    milestones: (50, 100, 150)
+    gamma: 0.5
+    batch_size: 1
+    dataset: 'OCT3DTrain'
+    image_size: 20
+    num_workers: 1
+    epoch: 200
+val:
+    dataset: 'OCT3DVal'
+    batch_size: 1
+    image_size: 100
+test:
+    demo_dir: 'demo_images/OCT/'
+    save_dir: 'demo_images/save_fig/'
+    radius_len: 0.6
+
