@@ -72,7 +72,7 @@ Some variables in this project:
 
 Test a model of our algorithm on a dataset: 
 ```
-python run.py --type evaluate test.dataset $dataset_name resume True model $model_name task $task
+python test.py --cfg_file configs/$config.yaml
 ```
 
 ### Training
@@ -92,11 +92,4 @@ More training configurations can be seen in `lib/config/config.py`.
 
 You could define the configuration with the terminal command or yaml files under `configs/`.
 
-During training, we can watch the training losses, testing losses and dataset metrics:
-
-```
-cd data/record
-tensorboard --logdir $task
-```
-
-The losses are defined in the trainer, and the metrics are defined in the evaluator.
+The losses are defined in the trainer.
