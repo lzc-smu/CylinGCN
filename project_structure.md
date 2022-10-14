@@ -70,7 +70,7 @@ Some variables in this project:
 
 ### Testing
 
-Test a model of our algorithm on a dataset: 
+Test our algorithm on a dataset: 
 ```
 python test.py --cfg_file configs/$config.yaml
 ```
@@ -91,5 +91,10 @@ Some configurations that are frequently revised for training:
 More training configurations can be seen in `lib/config/config.py`.
 
 You could define the configuration with the terminal command or yaml files under `configs/`.
+
+Train our algorithm on a dataset: 
+```
+python train.py --cfg_file configs/$config.yaml
+```
 
 The losses are defined in the trainer.
