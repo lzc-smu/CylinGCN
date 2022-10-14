@@ -46,7 +46,7 @@ python setup.py build_ext --inplace
     ```
 2. Create a soft link:
     ```
-    ROOT=/path/to/data
+    ROOT=/path/to/CylinGCN
     cd $ROOT/data
     ln -s /path/to/PAT PAT
     ```
