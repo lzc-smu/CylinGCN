@@ -23,7 +23,7 @@ python setup.py install --cuda_ext --cpp_ext
 ### Compile cuda extensions under `lib/csrc`
 
 ```
-ROOT=/path/to/snake
+ROOT=/path/to/CylinGCN
 cd $ROOT/lib/csrc
 export CUDA_HOME="/usr/local/cuda-9.0"
 cd ../extreme_utils
@@ -46,7 +46,7 @@ python setup.py build_ext --inplace
     ```
 2. Create a soft link:
     ```
-    ROOT=/path/to/snake
+    ROOT=/path/to/data
     cd $ROOT/data
     ln -s /path/to/PAT PAT
     ```
@@ -55,7 +55,7 @@ python setup.py build_ext --inplace
 
 1. Organize the dataset as the following structure:
     ```
-    ├── /path/to/OCT
+    ├── /path/to/CylinGCN
     │   ├── train
     │   │   ├── JPGEImages
     │   │   ├── instances_val.json 
@@ -65,7 +65,7 @@ python setup.py build_ext --inplace
     ```
 2. Create a soft link:
     ```
-    ROOT=/path/to/snake
+    ROOT=/path/to/CylinGCN
     cd $ROOT/data
     ln -s /path/to/OCT OCT
     ```
