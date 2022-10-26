@@ -1,6 +1,6 @@
 # CylinGCN: Cylindrical Structures Segmentation in 3D Biomedical Optical Imaging by a contour-based Graph Convolutional Network
 
-![city](assets/cylingcn.png)
+![city](assets/cylingcn.bmp)
 
 > [CylinGCN: Cylindrical Structures Segmentation in 3D Biomedical Optical Imaging by a contour-based Graph Convolutional Network](https://arxiv.org/pdf/)  
 > Zhichao Liang, Shuangyang Zhang, Zhijian Zhuang, Xipan Li, Wufan Chen, Li Qi 
@@ -29,7 +29,7 @@ Test:
 
 If setup correctly, the output will look like
 
-![vis_city](assets/test.png)
+![vis_city](assets/test.bmp)
 
 
 
@@ -56,7 +56,7 @@ python train.py --cfg_file configs/cylingcn_oct.yaml
 If you find this code useful for your research, please use the following BibTeX entry.
 
 ```
-@inproceedings{Liang2022,
+@article{Liang2022,
   title={CylinGCN: Cylindrical Structures Segmentation in 3D Biomedical Optical Imaging by a contour-based Graph Convolutional Network},
   author={Zhichao Liang, Shuangyang Zhang, Zhijian Zhuang, Xipan Li, Wufan Chen, and Li Qi},
 }
