@@ -24,6 +24,9 @@ def ConstructConnectGraph(nx_g, col, sli):
     for k in range(sli - 1):
         for j in range(col):
             nx_g.add_edge(k * col + j, (k + 1) * col + j)
+    for k in range(sli - 2):
+        for j in range(col):
+            nx_g.add_edge(k * col + j, (k + 2) * col + j)
 
     for k in range(sli - 1):
         for j in range(col):
