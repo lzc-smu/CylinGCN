@@ -1,6 +1,6 @@
 # CylinGCN: Cylindrical Structures Segmentation in 3D Biomedical Optical Imaging by a contour-based Graph Convolutional Network
 
-![city](assets/cylingcn.bmp)
+![city](assets/cylingcn.png)
 
 > [CylinGCN: Cylindrical Structures Segmentation in 3D Biomedical Optical Imaging by a contour-based Graph Convolutional Network](https://arxiv.org/pdf/)  
 > Zhichao Liang, Shuangyang Zhang, Zhijian Zhuang, Xipan Li, Wufan Chen, Li Qi 
@@ -29,7 +29,7 @@ Test:
 
 If setup correctly, the output will look like
 
-![vis_city](assets/test.bmp)
+![vis_city](assets/test.png)
 
 
 
