@@ -50,7 +50,7 @@ python train.py --cfg_file configs/cylingcn_oct.yaml
 ```
 
 ## Acknowledgement
-This code is based on [Deep Snake](https://github.com/zju3dv/snake), thanks to their great contribution.
+This code is based on [Deep Snake](https://github.com/zju3dv/snake), thanks for their great contribution.
 
 
 ## Citation
