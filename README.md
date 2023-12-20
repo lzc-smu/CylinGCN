@@ -3,7 +3,7 @@
 ![city](assets/cylingcn.png)
 
 > [CylinGCN: Cylindrical Structures Segmentation in 3D Biomedical Optical Imaging by a contour-based Graph Convolutional Network](https://arxiv.org/pdf/)  
-> Zhichao Liang, Shuangyang Zhang, Zhijian Zhuang, Xipan Li, Wufan Chen, Li Qi 
+>Zhichao Liang, Shuangyang Zhang, Anqi Wei, Zhenyang Liu, Yang Wang, Haoyu Hu, Wufan Chen, Li Qi
 
 Any questions or discussions are welcomed!
 
